@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Footer from "./footer";
 
 export const metadata: Metadata = {
   title: "Cloudflare Compliment Generator",
@@ -16,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen flex flex-col justify-between">
         {children}
-        <Footer />
       </body>
     </html>
   );
